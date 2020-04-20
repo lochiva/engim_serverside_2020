@@ -14,7 +14,9 @@ class LearningController extends AppController
        // $this->render('mydifferentview');
 
    //       $this->viewBuilder()->setLayout('learningLayout');
-         $this->set('color', 'pink');
+        $colors = ['pink','yellow'];
+
+         $this->set('colors', $colors);
 
     }
 
