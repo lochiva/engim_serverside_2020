@@ -1,0 +1,1 @@
+sono un diverso file di view che posso essere usato se viene specificato il nome con metodo render()
