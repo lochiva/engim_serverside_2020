@@ -9,7 +9,12 @@ class LearningController extends AppController
 
     public function first(){
 
-        die('nel metodo first di LearningController');
+       // die('nel metodo first di LearningController');
+       //$this->autoRender=false;
+       // $this->render('mydifferentview');
+
+   //       $this->viewBuilder()->setLayout('learningLayout');
+         $this->set('color', 'pink');
 
     }
 
